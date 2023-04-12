@@ -8,7 +8,8 @@
   "scripts": {
     "build-html": "resume export index.html --theme rocketspacer",
     "build-pdf": "resume export index.pdf --theme rocketspacer",
-    "build": "npm run build-html && npm run build-pdf"
+    "build": "npm run clean; npm run build-html; npm run build-pdf",
+    "clean": "rm index.html; rm index.pdf"
   },
   "dependencies": {
     "jsonresume-theme-rocketspacer": "^1.2.2",
