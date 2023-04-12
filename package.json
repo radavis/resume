@@ -6,7 +6,9 @@
   "license": "MIT",
   "homepage": "https://radavis.gitlab.io/resume",
   "scripts": {
-    "build": "resume export index.html --theme rocketspacer"
+    "build-html": "resume export index.html --theme rocketspacer",
+    "build-pdf": "resume export index.pdf --theme rocketspacer",
+    "build": "npm run build-html && npm run build-pdf"
   },
   "dependencies": {
     "jsonresume-theme-rocketspacer": "^1.2.2",
