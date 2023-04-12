@@ -1,0 +1,76 @@
+{
+  "name": "Richard A. Davis",
+  "title": "Software Engineer",
+  "phone": "+1 617-943-1579",
+  "email": "rdavis.bacs@gmail.com",
+  "portfolio": "https://linktr.ee/radavis",
+  "location": "Baltimore, Maryland, USA",
+  "summary": "I'm a Software Engineer with 8+ years experience building Web Applications for Startups and Government Agencies. After taking some time away from my career to focus on my health, I'm ready to get back to work.",
+  "experiences": [
+    {
+      "title": "Software Engineer",
+      "company": "Apex Systems/Verizon Public Sector",
+      "location": "Baltimore, Maryland, USA",
+      "startDate": "2021/10/25",
+      "endDate": "2022/06/20",
+      "accomplishments": [
+        "Contributed to a Web Application that tracks and reports network upgrades.",
+        "Introduced the team to Automated Testing and CI/CD.",
+        "Managed a private GitLab instance to build, test, and deploy application containers.",
+        "Wrote Dockerfiles to define application containers utilizing the multi-stage build syntax.",
+        "Used Docker Compose to define a local development environment.",
+        "Wrote system tests for user workflows.",
+        "Utilized Chef InSpec to audit configuration changes.",
+        "Created a template for HTML and CSS formatted emails"
+      ],
+      "technologies": [
+        "Ruby on Rails",
+        "RSpec",
+        "Capybara",
+        "Docker",
+        "GitLab",
+        "Linux"
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Fearless Solutions",
+      "location": "Baltimore, Maryland, USA",
+      "startDate": "2018/10/15",
+      "endDate": "2021/03/10",
+      "accomplishments": [
+        ""
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Workbar",
+      "location": "Boston, Massachusetts, USA",
+      "startDate": "2017/05/08",
+      "endDate": "2018/05/08",
+      "accomplishments": [
+        ""
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Launch Academy",
+      "location": "Boston, Massachusetts, USA",
+      "startDate": "2014/05/12",
+      "endDate": "2017/04/28",
+      "accomplishments": [
+        ""
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Digital Lumens",
+      "location": "Boston, Massachusetts, USA",
+      "startDate": "2013/11/11",
+      "endDate": "2014/05/09",
+      "accomplishments": [
+        ""
+      ]
+    }
+  ]
+}
