@@ -1,0 +1,15 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Resume for radavis in resume.json format. See jsonresume.org/schema",
+  "author": "radavis",
+  "license": "MIT",
+  "homepage": "https://radavis.gitlab.io/resume",
+  "scripts": {
+    "build": "resume export index.html --theme rocketspacer"
+  },
+  "dependencies": {
+    "jsonresume-theme-rocketspacer": "^1.2.2",
+    "resume-cli": "^3.0.8"
+  }
+}
