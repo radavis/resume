@@ -1,20 +1,28 @@
 {
-  "name": "Richard A. Davis",
-  "title": "Software Engineer",
-  "phone": "+1 617-943-1579",
-  "email": "rdavis.bacs@gmail.com",
-  "portfolio": "https://linktr.ee/radavis",
-  "location": "Baltimore, Maryland, USA",
-  "summary": "I'm a Software Engineer with 8+ years experience building software solutions for Startups and Government Agencies. After taking some time away from my career to focus on my health, I'm ready to get back to work.",
-  "experiences": [
+  "meta": {
+    "theme": "rocketspacer"
+  },
+  "basics": {
+    "name": "Richard A. Davis",
+    "label": "Software Engineer",
+    "image": "https://en.gravatar.com/userimage/46982869/1df67459e021de43afb26368cfe07844.png",
+    "email": "rdavis.bacs+cv@gmail.com",
+    "website": "https://linktr.ee/radavis",
+    "summary": "I'm a Software Engineer with 8+ years experience building software solutions for Startups and Government Agencies. After taking some time away from my career to focus on my health, I'm ready to get back to work.",
+    "location": {
+      "city": "Baltimore",
+      "countryCode": "US",
+      "region": "Maryland"
+    }
+  },
+  "work": [
     {
-      "title": "Software Engineer",
       "company": "Apex Systems/Verizon Public Sector",
-      "location": "Baltimore, Maryland, USA",
-      "startDate": "2021/10/25",
-      "endDate": "2022/06/20",
-      "accomplishments": [
-        "Contributed to a Web Application that tracks and reports network upgrades.",
+      "position": "Software Engineer",
+      "startDate": "2021-10-25",
+      "endDate": "2022-06-20",
+      "summary": "Contributed to a Ruby on Rails Application that tracks and reports network upgrades.",
+      "highlights": [
         "Introduced the team to Automated Testing and CI/CD.",
         "Managed a private GitLab instance to build, test, and deploy application containers.",
         "Wrote Dockerfiles to define application containers utilizing the multi-stage build syntax.",
@@ -23,97 +31,108 @@
         "Utilized Chef InSpec to audit configuration changes.",
         "Created a templpate for HTML and CSS styled emails.",
         "Incorporated container security scanning, dependency security scanning, and static code analysis into the CI/CD pipeline."
-      ],
-      "skills": [
-        "Ruby on Rails",
-        "RSpec",
-        "Capybara",
-        "Docker",
-        "GitLab",
-        "Linux"
       ]
     },
     {
-      "title": "Software Engineer",
       "company": "Fearless Solutions",
-      "location": "Baltimore, Maryland, USA",
-      "startDate": "2018/10/15",
-      "endDate": "2021/03/10",
-      "accomplishments": [
-        "Contributed to the development of software for multiple U.S. Government Agencies using Agile development, hosted in cloud environments.",
+      "position": "Software Engineer II",
+      "startDate": "2018-10-15",
+      "endDate": "2021-03-10",
+      "summary": "Contributed to the development of software for multiple U.S. Government Agencies using Agile development, hosted in cloud environments.",
+      "highlights": [
         "Creation of Node.js/Express/React applications for use by Human Resources deployed within a 3-letter Security Agency.",
         "Wrote end-to-end tests in Cypress, unit/integration tests with Jasmine.",
         "Development of Java/Spring/React applications deployed on Pivotal Cloud Foundry for USAF.",
         "Made open-source contributions to the CMS/eAPD Node.js/Express/React application deployed on AWS.",
         "Prototype to implementation of the US DoD Mentor-Protege application process using Ruby on Rails."
-      ],
-      "skills": [
-        "Agile",
-        "HTML/CSS/JavaScript",
-        "Node.js",
-        "Express",
-        "React.js",
-        "Ruby on Rails",
-        "Java",
-        "Spring Boot",
-        "AWS",
-        "REST APIs",
-        "Section 508"
       ]
     },
     {
-      "title": "Software Developer",
       "company": "Workbar",
-      "location": "Boston, Massachusetts, USA",
-      "startDate": "2017/05/08",
-      "endDate": "2018/05/08",
-      "accomplishments": [
-        "Implemented features and improvements to the internal customer management system built with Rails, MySQL, and React.",
+      "position": "Software Developer",
+      "startDate": "2017-05-08",
+      "endDate": "2018-05-08",
+      "summary": "Implemented features and improvements to the internal customer management system built with Rails, MySQL, and React.",
+      "highlights": [
         "Leveled-up the software development team through regular code review, pair programming, and one-on-one meetings."
-      ],
-      "skills": [
-        "Agile",
-        "Ruby on Rails",
-        "SQL",
-        "React.js"
       ]
     },
     {
-      "title": "Software Developer and Instructor",
       "company": "Launch Academy",
-      "location": "Boston, Massachusetts, USA",
-      "startDate": "2014/05/12",
-      "endDate": "2017/04/28",
-      "accomplishments": [
-        "Helped train hundreds of students to switch careers to become Entry-level Software Developers.",
+      "position": "Software Developer and Instructor",
+      "startDate": "2014-05-12",
+      "endDate": "2017-04-28",
+      "summary": "Helped train hundreds of students to switch careers to become Entry-level Software Developers.",
+      "highlights": [
         "Wrote curriculum geared towards new software developers to teach them how to program in Ruby and JavaScript.",
         "Contributed to Rails/React applications deployed on Heroku that managed Launch Academy's curriculum, assignment submission, grading, attendance, and identity management.",
         "Taught students testing, feature development, and version control.",
         "Acted as an Instructor, Mentor, and Product Manager to students as they progressed through the Launch Academy program."
-      ],
-      "skills": [
-        "Agile",
-        "Ruby on Rails",
-        "HTML/CSS/JavaScript",
-        "React.js",
-        "Heroku",
-        "REST APIs"
       ]
     },
     {
-      "title": "Software Developer",
       "company": "Digital Lumens",
-      "location": "Boston, Massachusetts, USA",
-      "startDate": "2013/11/11",
-      "endDate": "2014/05/09",
-      "accomplishments": [
-        "Implemented features and bugfixes in the LightRules power monitoring web application."
-      ],
-      "skills": [
-        "Ruby on Rails",
+      "position": "Software Developer",
+      "startDate": "2013-11-11",
+      "endDate": "2014-05-09",
+      "summary": "Implemented features and bugfixes in the LightRules power monitoring web application."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Launch Academy",
+      "url": "https://launchacademy.com",
+      "area": "Software Development",
+      "studyType": "Bootcamp Graduate",
+      "startDate": "2013-07-01",
+      "endDate": "2013-10-21"
+    },
+    {
+      "institution": "Thomas Edison State College",
+      "url": "https://tesu.edu/",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Arts",
+      "startDate": "2011-11-24",
+      "endDate": "2013-03-15"
+    }
+  ],
+  "skills": [
+    {
+      "keywords": [
+        "HTML / CSS",
         "JavaScript",
-        "Test Driven Development"
-      ]
+        "React",
+        "Section 508"
+      ],
+      "name": "Frontend"
+    },
+    {
+      "keywords": [
+        "Ruby on Rails",
+        "Node / Express",
+        "Java / Spring Boot",
+        "SQL"
+      ],
+      "name": "Backend"
+    },
+    {
+      "keywords": [
+        "AWS",
+        "Heroku",
+        "GitLab CI",
+        "Bash / Shell Scripting",
+        "Docker",
+        "Linux"
+      ],
+      "name": "DevOps"
+    },
+    {
+      "keywords": [
+        "Agile Software Development",
+        "Technical Documentation",
+        "Code Review"
+      ],
+      "name": "General"
     }
   ]
 }
