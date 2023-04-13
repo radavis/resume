@@ -4,10 +4,10 @@
   },
   "basics": {
     "name": "Richard A. Davis",
-    "label": "Software Engineer",
+    "label": "Software Engineer, Full-Stack Development",
     "email": "rdavis.bacs+cv@gmail.com",
     "website": "https://linktr.ee/radavis",
-    "summary": "I'm a Software Engineer with 8+ years experience building software solutions for Startups and Government Agencies. After taking some time away from my career to focus on my health, I'm ready to get back to work.",
+    "summary": "I'm a Software Engineer with 8 years experience building software solutions for Startups and Government Agencies. I'm passionate about DevSecOps, CI/CD, Automated Testing, and helping others. After taking some time away from my career to focus on my health, I'm ready to get back to work.",
     "location": {
       "city": "Baltimore",
       "countryCode": "US",
@@ -18,11 +18,13 @@
     {
       "company": "Apex Systems/Verizon Public Sector",
       "position": "Software Engineer",
+      "website": "https://apexsystems.com",
+      "officeLocation": "Glen Allen, VA (Remote)",
       "startDate": "2021-10-25",
       "endDate": "2022-06-20",
       "summary": "Contributed to a Ruby on Rails Application that tracks and reports network upgrades.",
       "highlights": [
-        "Introduced the team to Automated Testing and CI/CD.",
+        "Introduced the team to Automated Testing and CI/CD concepts.",
         "Managed a private GitLab instance to build, test, and deploy application containers.",
         "Wrote Dockerfiles to define application containers utilizing the multi-stage build syntax.",
         "Used Docker Compose to define a local development environment.",
@@ -35,6 +37,8 @@
     {
       "company": "Fearless Solutions",
       "position": "Software Engineer II",
+      "website": "https://fearless.tech",
+      "officeLocation": "Baltimore, MD (Remote)",
       "startDate": "2018-10-15",
       "endDate": "2021-03-10",
       "summary": "Contributed to the development of software for multiple U.S. Government Agencies using Agile development, hosted in cloud environments.",
@@ -42,13 +46,15 @@
         "Creation of Node.js/Express/React applications for use by Human Resources deployed within a 3-letter Security Agency.",
         "Wrote end-to-end tests in Cypress, unit/integration tests with Jasmine.",
         "Development of Java/Spring/React applications deployed on Pivotal Cloud Foundry for USAF.",
-        "Made open-source contributions to the CMS/eAPD Node.js/Express/React application deployed on AWS.",
+        "Made open-source contributions to the Enterprise-CMCS/eAPD Node.js/Express/React application deployed on AWS.",
         "Prototype to implementation of the US DoD Mentor-Protege application process using Ruby on Rails."
       ]
     },
     {
       "company": "Workbar",
       "position": "Software Developer",
+      "website": "https://workbar.com",
+      "officeLocation": "Boston, MA",
       "startDate": "2017-05-08",
       "endDate": "2018-05-08",
       "summary": "Implemented features and improvements to the internal customer management system built with Rails, MySQL, and React.",
@@ -59,6 +65,8 @@
     {
       "company": "Launch Academy",
       "position": "Software Developer and Instructor",
+      "website": "https://launchacademy.com",
+      "officeLocation": "Boston, MA",
       "startDate": "2014-05-12",
       "endDate": "2017-04-28",
       "summary": "Helped train hundreds of students to switch careers and become Entry-level Software Developers.",
@@ -72,6 +80,8 @@
     {
       "company": "Digital Lumens",
       "position": "Software Developer",
+      "website": "https://digitallumens.com/",
+      "officeLocation": "Boston, MA",
       "startDate": "2013-11-11",
       "endDate": "2014-05-09",
       "summary": "Implemented features and bugfixes in the LightRules power monitoring web application."
@@ -110,6 +120,7 @@
         "Ruby on Rails",
         "Node / Express",
         "Java / Spring Boot",
+        "Bash / Shell Scripting",
         "SQL"
       ],
       "name": "Backend"
@@ -119,7 +130,6 @@
         "AWS",
         "Heroku",
         "GitLab CI",
-        "Bash / Shell Scripting",
         "Docker",
         "Linux"
       ],

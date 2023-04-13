@@ -3,23 +3,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Richard A. Davis</title>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
 
-
+  
   <style type="text/css">
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
-
-@media print {
-  .col-sm-12 {
-    break-inside: avoid;
-  }
-}
 
 body {
 	background: #fff;
@@ -122,7 +115,7 @@ h4 span:first-child {
 }
 
 #header h2 {
-	color: #95a5a6;
+	color: #666;
 	font-size: 24px;
 }
 
@@ -139,6 +132,10 @@ h4 span:first-child {
 
 #profiles .network {
 	text-transform: capitalize;
+}
+
+#work .office-location {
+  margin-bottom: 8px;
 }
 
 #work .position,
@@ -279,6 +276,10 @@ h4 span:first-child {
 		padding: 0;
 	}
 
+  #content .col-sm-12 {
+    break-inside: avoid;
+  }
+
 	#content aside {
 		margin: 0 !important;
 	}
@@ -364,7 +365,7 @@ h4 span:first-child {
 }
 
   </style>
-
+  
 </head>
 <body>
   <!-- HEADER -->
@@ -376,7 +377,8 @@ h4 span:first-child {
         </div>
 				<div class="col-sm-9">
           <h1>Richard A. Davis</h1>
-          <h2>Software Engineer</h2>
+          <h2>Software Engineer, Full-Stack Development</h2>
+          <p>Baltimore, Maryland, US</p>
 				</div>
 			</div>
 		</div>
@@ -385,37 +387,37 @@ h4 span:first-child {
   <!-- CONTENT: Re-arrange sections order if necessary -->
   <div id="content" class="container">
     <!-- Contact -->
-
+    
 
 
   <section id="contact" class="row">
     <aside class="col-sm-3"><h3>Contact</h3></aside>
     <div class="col-sm-9">
       <div class="row">
-
+        
           <div class="col-sm-6">
             <strong>Email</strong>
             <div>
               <a href="mailto:rdavis.bacs+cv@gmail.com">rdavis.bacs+cv@gmail.com</a>
             </div>
           </div>
-
-
-
+        
+        
+        
           <div class="col-sm-6">
             <strong>Website</strong>
             <div>
               <a target="_blank" href="https://linktr.ee/radavis">https://linktr.ee/radavis</a>
             </div>
           </div>
-
+        
       </div>
     </div>
   </section>
 
 
     <!-- About -->
-
+    
 
 
   <section id="about" class="row">
@@ -423,18 +425,18 @@ h4 span:first-child {
       <h3>About</h3>
     </aside>
     <div class="col-sm-9">
-      <p>I&#39;m a Software Engineer with 8+ years experience building software solutions for Startups and Government Agencies. After taking some time away from my career to focus on my health, I&#39;m ready to get back to work.</p>
+      <p>I&#39;m a Software Engineer with 8 years experience building software solutions for Startups and Government Agencies. I&#39;m passionate about DevSecOps, CI/CD, Automated Testing, and helping others. After taking some time away from my career to focus on my health, I&#39;m ready to get back to work.</p>
     </div>
   </section>
 
 
     <!-- Profiles -->
-
+    
 
 
 
     <!-- Work -->
-
+    
 
 
   <section id="work" class="row">
@@ -443,7 +445,7 @@ h4 span:first-child {
     </aside>
     <div class="col-sm-9">
       <div class="row">
-
+        
           <div class="col-sm-12">
             <h4 class="strike-through">
               <span>Apex Systems/Verizon Public Sector</span>
@@ -452,38 +454,41 @@ h4 span:first-child {
               </span>
             </h4>
             <div class="website pull-right">
-              <a target="_blank" href=""></a>
+              <a target="_blank" href="https://apexsystems.com">https://apexsystems.com</a>
             </div>
             <div class="position">
               Software Engineer
             </div>
+            <div class="office-location">
+              Glen Allen, VA (Remote)
+            </div>
             <div class="summary">
               <p>Contributed to a Ruby on Rails Application that tracks and reports network upgrades.</p>
             </div>
-
+            
               <p><strong>Highlights</strong></p>
               <ul class="highlights">
-
-                  <li class="bullet">Introduced the team to Automated Testing and CI/CD.</li>
-
+                
+                  <li class="bullet">Introduced the team to Automated Testing and CI/CD concepts.</li>
+                
                   <li class="bullet">Managed a private GitLab instance to build, test, and deploy application containers.</li>
-
+                
                   <li class="bullet">Wrote Dockerfiles to define application containers utilizing the multi-stage build syntax.</li>
-
+                
                   <li class="bullet">Used Docker Compose to define a local development environment.</li>
-
+                
                   <li class="bullet">Wrote system tests for user workflows.</li>
-
+                
                   <li class="bullet">Utilized Chef InSpec to audit configuration changes.</li>
-
+                
                   <li class="bullet">Created a templpate for HTML and CSS styled emails.</li>
-
+                
                   <li class="bullet">Incorporated container security scanning, dependency security scanning, and static code analysis into the CI/CD pipeline.</li>
-
+                
               </ul>
-
+            
           </div>
-
+        
           <div class="col-sm-12">
             <h4 class="strike-through">
               <span>Fearless Solutions</span>
@@ -492,32 +497,35 @@ h4 span:first-child {
               </span>
             </h4>
             <div class="website pull-right">
-              <a target="_blank" href=""></a>
+              <a target="_blank" href="https://fearless.tech">https://fearless.tech</a>
             </div>
             <div class="position">
               Software Engineer II
             </div>
+            <div class="office-location">
+              Baltimore, MD (Remote)
+            </div>
             <div class="summary">
               <p>Contributed to the development of software for multiple U.S. Government Agencies using Agile development, hosted in cloud environments.</p>
             </div>
-
+            
               <p><strong>Highlights</strong></p>
               <ul class="highlights">
-
+                
                   <li class="bullet">Creation of Node.js/Express/React applications for use by Human Resources deployed within a 3-letter Security Agency.</li>
-
+                
                   <li class="bullet">Wrote end-to-end tests in Cypress, unit/integration tests with Jasmine.</li>
-
+                
                   <li class="bullet">Development of Java/Spring/React applications deployed on Pivotal Cloud Foundry for USAF.</li>
-
-                  <li class="bullet">Made open-source contributions to the CMS/eAPD Node.js/Express/React application deployed on AWS.</li>
-
+                
+                  <li class="bullet">Made open-source contributions to the Enterprise-CMCS/eAPD Node.js/Express/React application deployed on AWS.</li>
+                
                   <li class="bullet">Prototype to implementation of the US DoD Mentor-Protege application process using Ruby on Rails.</li>
-
+                
               </ul>
-
+            
           </div>
-
+        
           <div class="col-sm-12">
             <h4 class="strike-through">
               <span>Workbar</span>
@@ -526,24 +534,27 @@ h4 span:first-child {
               </span>
             </h4>
             <div class="website pull-right">
-              <a target="_blank" href=""></a>
+              <a target="_blank" href="https://workbar.com">https://workbar.com</a>
             </div>
             <div class="position">
               Software Developer
             </div>
+            <div class="office-location">
+              Boston, MA
+            </div>
             <div class="summary">
               <p>Implemented features and improvements to the internal customer management system built with Rails, MySQL, and React.</p>
             </div>
-
+            
               <p><strong>Highlights</strong></p>
               <ul class="highlights">
-
+                
                   <li class="bullet">Leveled-up the software development team through regular code review, pair programming, and one-on-one meetings.</li>
-
+                
               </ul>
-
+            
           </div>
-
+        
           <div class="col-sm-12">
             <h4 class="strike-through">
               <span>Launch Academy</span>
@@ -552,30 +563,33 @@ h4 span:first-child {
               </span>
             </h4>
             <div class="website pull-right">
-              <a target="_blank" href=""></a>
+              <a target="_blank" href="https://launchacademy.com">https://launchacademy.com</a>
             </div>
             <div class="position">
               Software Developer and Instructor
             </div>
+            <div class="office-location">
+              Boston, MA
+            </div>
             <div class="summary">
               <p>Helped train hundreds of students to switch careers and become Entry-level Software Developers.</p>
             </div>
-
+            
               <p><strong>Highlights</strong></p>
               <ul class="highlights">
-
+                
                   <li class="bullet">Wrote curriculum geared towards new software developers to teach them how to program in Ruby and JavaScript.</li>
-
+                
                   <li class="bullet">Contributed to Rails/React applications deployed on Heroku that managed Launch Academy&#39;s curriculum, assignment submission, grading, attendance, and identity management.</li>
-
+                
                   <li class="bullet">Taught students testing, feature development, and version control.</li>
-
+                
                   <li class="bullet">Acted as an Instructor, Mentor, and Technical Lead to students as they progressed through the Launch Academy program.</li>
-
+                
               </ul>
-
+            
           </div>
-
+        
           <div class="col-sm-12">
             <h4 class="strike-through">
               <span>Digital Lumens</span>
@@ -584,24 +598,27 @@ h4 span:first-child {
               </span>
             </h4>
             <div class="website pull-right">
-              <a target="_blank" href=""></a>
+              <a target="_blank" href="https://digitallumens.com/">https://digitallumens.com/</a>
             </div>
             <div class="position">
               Software Developer
             </div>
+            <div class="office-location">
+              Boston, MA
+            </div>
             <div class="summary">
               <p>Implemented features and bugfixes in the LightRules power monitoring web application.</p>
             </div>
-
+            
           </div>
-
+        
       </div>
     </div>
   </section>
 
 
     <!-- Skills -->
-
+    
 
 
   <section id="skills" class="row">
@@ -610,92 +627,92 @@ h4 span:first-child {
     </aside>
     <div class="col-sm-9">
       <div class="row">
-
+        
           <div class="col-sm-6">
             <div class="name">
               <h4>Frontend</h4>
             </div>
-
+            
               <ul class="keywords">
-
+                
                   <li>HTML / CSS</li>
-
+                
                   <li>JavaScript</li>
-
+                
                   <li>React</li>
-
+                
                   <li>Section 508</li>
-
+                
               </ul>
-
+            
           </div>
-
+        
           <div class="col-sm-6">
             <div class="name">
               <h4>Backend</h4>
             </div>
-
+            
               <ul class="keywords">
-
+                
                   <li>Ruby on Rails</li>
-
+                
                   <li>Node / Express</li>
-
+                
                   <li>Java / Spring Boot</li>
-
+                
+                  <li>Bash / Shell Scripting</li>
+                
                   <li>SQL</li>
-
+                
               </ul>
-
+            
           </div>
-
+        
           <div class="col-sm-6">
             <div class="name">
               <h4>DevOps</h4>
             </div>
-
+            
               <ul class="keywords">
-
+                
                   <li>AWS</li>
-
+                
                   <li>Heroku</li>
-
+                
                   <li>GitLab CI</li>
-
-                  <li>Bash / Shell Scripting</li>
-
+                
                   <li>Docker</li>
-
+                
                   <li>Linux</li>
-
+                
               </ul>
-
+            
           </div>
-
+        
           <div class="col-sm-6">
             <div class="name">
               <h4>General</h4>
             </div>
-
+            
               <ul class="keywords">
-
+                
                   <li>Agile Software Development</li>
-
+                
                   <li>Technical Documentation</li>
-
+                
                   <li>Code Review</li>
-
+                
               </ul>
-
+            
           </div>
-
+        
       </div>
     </div>
   </section>
 
 
     <!-- Education -->
-
+    
 
 
   <section id="education" class="row">
@@ -704,7 +721,7 @@ h4 span:first-child {
     </aside>
     <div class="col-sm-9">
       <div class="row">
-
+        
           <div class="col-sm-12">
             <h4 class="strike-through">
               <span>Launch Academy</span>
@@ -715,11 +732,11 @@ h4 span:first-child {
             <div class="area">Software Development</div>
             <div class="studyType">
               Bootcamp Graduate
-
+              
             </div>
-
+            
           </div>
-
+        
           <div class="col-sm-12">
             <h4 class="strike-through">
               <span>Thomas Edison State College</span>
@@ -730,49 +747,49 @@ h4 span:first-child {
             <div class="area">Computer Science</div>
             <div class="studyType">
               Bachelor of Arts
-
+              
             </div>
-
+            
           </div>
-
+        
       </div>
     </div>
   </section>
 
 
     <!-- Certifications -->
-
+    
 
 
 
     <!-- Awards -->
-
+    
 
 
 
 
     <!-- Volunteer -->
-
+    
 
 
 
     <!-- Publications -->
-
+    
 
 
 
     <!-- Languages -->
-
+    
 
 
 
     <!-- Interests -->
-
+    
 
 
 
     <!-- References -->
-
+    
 
 
 
