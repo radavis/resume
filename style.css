@@ -1,0 +1,5 @@
+@media print {
+  .col-sm-12 {
+    break-inside: avoid;
+  }
+}
