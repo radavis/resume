@@ -61,12 +61,12 @@
       "position": "Software Developer and Instructor",
       "startDate": "2014-05-12",
       "endDate": "2017-04-28",
-      "summary": "Helped train hundreds of students to switch careers to become Entry-level Software Developers.",
+      "summary": "Helped train hundreds of students to switch careers and become Entry-level Software Developers.",
       "highlights": [
         "Wrote curriculum geared towards new software developers to teach them how to program in Ruby and JavaScript.",
         "Contributed to Rails/React applications deployed on Heroku that managed Launch Academy's curriculum, assignment submission, grading, attendance, and identity management.",
         "Taught students testing, feature development, and version control.",
-        "Acted as an Instructor, Mentor, and Product Manager to students as they progressed through the Launch Academy program."
+        "Acted as an Instructor, Mentor, and Technical Lead to students as they progressed through the Launch Academy program."
       ]
     },
     {
