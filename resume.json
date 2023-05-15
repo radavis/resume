@@ -7,7 +7,7 @@
     "label": "Software Engineer, Full-Stack Development",
     "email": "rdavis.bacs+cv@gmail.com",
     "website": "https://linktr.ee/radavis",
-    "summary": "I'm a Software Engineer with 8 years experience building software solutions for Startups and Government Agencies. I'm passionate about DevSecOps, CI/CD, Automated Testing, and helping others. After taking some time away from my career to focus on my health, I'm ready to get back to work.",
+    "summary": "I'm a Software Engineer with 8 years experience building software solutions for Startups and Government Agencies. I'm passionate about DevSecOps, CI/CD, Automated Testing, and helping others.",
     "location": {
       "city": "Baltimore",
       "countryCode": "US",
@@ -15,6 +15,16 @@
     }
   },
   "work": [
+    {
+      "company": "AgileSix",
+      "position": "Software Engineer",
+      "website": "https://agile6.com",
+      "officeLocation": "San Diego, CA (Remote)",
+      "startDate": "2023-05-30",
+      "summary": "We're a team of problem solvers looking to help build a better digital & human-centered government.",
+      "highlights": [
+      ]
+    },
     {
       "company": "Apex Systems/Verizon Public Sector",
       "position": "Software Engineer",
